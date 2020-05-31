@@ -45,6 +45,11 @@
       <version>1.4.10</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>com.albertsons.model</groupId>
+      <artifactId>albertsons</artifactId>
+      <version>1.0</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
