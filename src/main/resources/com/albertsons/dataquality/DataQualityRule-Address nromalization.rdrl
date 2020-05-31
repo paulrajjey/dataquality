@@ -1,0 +1,9 @@
+package com.albertsons.dataquality;
+
+import java.lang.Number;
+
+rule "DataQualityRule-Address nromalization"
+	dialect "mvel"
+	when
+	then
+end
