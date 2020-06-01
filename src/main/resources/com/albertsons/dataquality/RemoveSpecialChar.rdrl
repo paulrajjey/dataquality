@@ -1,9 +1,12 @@
 package com.albertsons.dataquality;
 
 import java.lang.Number;
+import com.albertsons.model.Customer;
 
 rule "RemoveSpecialChar"
 	dialect "mvel"
 	when
+		customer : Customer( specialChar : name matches ".*[*#].*" )
 	then
+		customer.setName( specialChar.replaceAll("[*#]", "") );
 end
