@@ -6,6 +6,7 @@ import com.albertsons.model.Customer;
 rule "DataQualityRule-Address nromalization"
 	dialect "mvel"
 	when
-		Customer( country in ( "U.S.A", "US" ) || country == null )
+		customer : Customer( country in ( "U.S.A", "US" ) || country == null )
 	then
+		customer.setCountry( "USA" );
 end
