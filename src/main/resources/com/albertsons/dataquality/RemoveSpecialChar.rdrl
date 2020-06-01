@@ -1,0 +1,9 @@
+package com.albertsons.dataquality;
+
+import java.lang.Number;
+
+rule "RemoveSpecialChar"
+	dialect "mvel"
+	when
+	then
+end
