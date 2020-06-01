@@ -1,9 +1,11 @@
 package com.albertsons.dataquality;
 
 import java.lang.Number;
+import com.albertsons.model.Customer;
 
 rule "DataQualityRule-Address nromalization"
 	dialect "mvel"
 	when
+		Customer( country in ( "U.S.A", "US" ) || country == null )
 	then
 end
