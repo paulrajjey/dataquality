@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.albertsons</groupId>
   <artifactId>dataquality</artifactId>
-  <version>1.0.5</version>
+  <version>1.0.6</version>
   <packaging>kjar</packaging>
   <name>dataquality</name>
   <description></description>
