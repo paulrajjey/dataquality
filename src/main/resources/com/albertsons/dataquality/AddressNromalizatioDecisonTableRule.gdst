@@ -67,7 +67,7 @@
       <boundName>customer</boundName>
       <factField>county</factField>
       <type>String</type>
-      <valueList>Dane,Milwaukee</valueList>
+      <valueList>Dane,Milwaukee,GreenBay</valueList>
       <update>false</update>
     </set-field-col52>
   </actionCols>
@@ -136,7 +136,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Dane</valueString>
+        <valueString>GreenBay</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
